@@ -1,8 +1,6 @@
-build_hooks
-===========
+Scarab includes a variety of utilities primarily aimed at the C++ packages developed by the Project 8 collaboration.
 
-testing ground for git client-side hooks
-
-to install, run $/path/to/build_hooks/bootstrap.sh from within the top directory of the git repo you want to work in.
-
-It is required that the verion number be stored in a file named VERSION, space separated.
+It contains three main components:
+* cmake: common CMake modules and scripts
+* githooks: versioning control scripts (not currently used)
+* library: C++ library of common utilities
